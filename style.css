@@ -7,9 +7,6 @@
 body {
     font-family: "Roboto", sans-serif;
     margin: 0;
-}
-
-header, footer {
     background-color: #1F2937;
 }
 
@@ -18,10 +15,6 @@ h1 {
     font-weight: 900;
     color: #F9FAF8;
     margin: 0;
-}
-
-#hero-section {
-    background-color: #1F2937;
 }
 
 .subtext, .nav-link {
@@ -59,9 +52,11 @@ blockquote {
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 24px;
+    padding: 24px 50px;
+    width: 80%;
+    margin: auto;
 }
 
 nav > ul {
@@ -81,7 +76,9 @@ nav > ul {
 #hero-section {
     padding: 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
 }
 
 .left {
