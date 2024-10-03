@@ -43,11 +43,16 @@ h1 {
 }
 
 blockquote {
-    background-color: #E5E7EB;
-    color: #1F2937;
-    font-weight: 100;
-    font-style: italic;
-    font-size: 36px;
+    margin: 25px auto;
+    width: 50%;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+p {
+    margin: 0;
 }
 
 header {
@@ -134,4 +139,18 @@ h2 {
     height: 120px;
     border: 3px solid #3882F6;
     border-radius: 6px;
+}
+
+#quote-section {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 36px;
+    padding: 50px;
+}
+
+.credit {
+    font-size: 0.75em;
+    font-weight: 900;
 }
