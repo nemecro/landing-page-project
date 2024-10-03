@@ -17,13 +17,14 @@ h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 0;
 }
 
 #hero-section {
     background-color: #1F2937;
 }
 
-#hero-section > p, .nav-link {
+.subtext, .nav-link {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -34,8 +35,14 @@ h1 {
     font-weight: 900;
 }
 
-button {
+.hero-button {
     color: #3882F6;
+    background-color: transparent;
+    font-size: 18px;
+    padding: 18px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .cta-container {
@@ -69,4 +76,24 @@ nav > ul {
 
 .nav-link {
     text-decoration: none;
+}
+
+#hero-section {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left {
+    flex: 0 0 600px;
+}
+
+.picture-container {
+    width: 480px;
+    height: 240px;
+    padding: 10px;
+    background-color: #414141;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
